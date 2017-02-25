@@ -2,7 +2,7 @@
 session_start();
 require_once("twitteroauth/twitteroauth/twitteroauth.php"); //Path to twitteroauth library you downloaded in step 3
 
-$twitteruser = "twitterusername"; //user name you want to reference
+$twitteruser = "@realDonaldTrump"; //user name you want to reference
 $notweets = 30; //how many tweets you want to retrieve
 $consumerkey = "BQRfMJOhdiARaRBwlOpo78ktp"; //Noted keys from step 2
 $consumersecret = "RxF8PngRe44jVMQDUdunfTy9KLRCqbp9NKFYX3fuHFkx2MvsHX"; //Noted keys from step 2
