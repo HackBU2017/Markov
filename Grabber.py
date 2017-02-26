@@ -9,7 +9,7 @@ def grabber(twitter_handle):
 
     {"id": 16133, "location": "Philadelphia", "name": "bear"}
 
-    t = api.GetUserTimeline(screen_name=twitter_handle)
+    t = api.GetUserTimeline(screen_name='RealDonaldTrump')
 
     longString = ""
 

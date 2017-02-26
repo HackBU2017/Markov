@@ -1,20 +1,30 @@
 #body
 {
-background-color: lightblue !important
+background-color: lightblue
 }
 #Head1 {
     text-align: center;
-    color: darkblue;
     font-family: "Georgia", Times, serif;
+}
+#Head2 {
+    text-align: center;
+    font-family: "Georgia", Times, serif;
+    }
+#Head3 {
+        text-align: center;
+        font-family: "Georgia", Times, serif;
+
+}
+#head4 {
+  text-align: center;
+  font-family: "Georgia", Times, serif;
 }
 #TypeHndle{
     text-align: center;
-    color: darkblue;
     font-family: "Georgia", Times, serif;
 }
 #ThnClckStr {
         text-align: center;
-        color: darkblue;
         font-family: "Georgia", Times, serif;
 }
 #form1 {
@@ -49,9 +59,14 @@ background-color: lightblue !important
 #Output {
   text-align: center;
   font-family: "Georgia", Times, serif;
-  color: darkblue;
 }
 
+#mission{
+  text-align: center;
+  font-family: "Georgia", Times, serif;
+  margin-right: 150px;
+   margin-left: 80px;
+}
 .matrioska {
   margin: 3em auto;
   max-width: 520px;

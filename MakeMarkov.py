@@ -4,7 +4,6 @@ import markovify
 
 def makeMarkov(twitter_handle):
     text = grabber(twitter_handle)
-    print(text)
     text_model = markovify.Text(text)
     for i in range(5):
         print(text_model.make_sentence())
