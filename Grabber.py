@@ -1,7 +1,7 @@
 import twitter
 import markovify
 
-def grabber():
+def grabber(twitter_handle):
     api = twitter.Api(consumer_key='BQRfMJOhdiARaRBwlOpo78ktp',
       consumer_secret='RxF8PngRe44jVMQDUdunfTy9KLRCqbp9NKFYX3fuHFkx2MvsHX',
       access_token_key='2498510321-AC9ycNnMzoug1iniU544RvceQkRNQxOS25qdaTr',
@@ -9,7 +9,7 @@ def grabber():
 
     {"id": 16133, "location": "Philadelphia", "name": "bear"}
 
-    t = api.GetUserTimeline(screen_name='incrubberduck')
+    t = api.GetUserTimeline(screen_name=twitter_handle)
 
     longString = ""
 
@@ -17,12 +17,3 @@ def grabber():
     for t in tweets:
         longString += str(t['text'])
     return longString
-
-def makeMarkov( a ):
-    text = a
-    print(text)
-    text_model = markovify.Text(text)
-    for i in range(5):
-        print(text_model.make_sentence())
-    for i in range(3):
-        print(text_model.make_short_sentence(140))
