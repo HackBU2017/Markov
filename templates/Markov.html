@@ -43,24 +43,20 @@
 </form>
 {% if itried %}
 <div class="matrioska">
-      <trump-o-mat>
-        <div class="loading">
-          <div class="loading-relative">
-            <p style="display:inline-block;padding:16px;margin: 10px 0;
+      <trump-o-mat style="display:inline-block;padding:16px;margin: 10px 0;
   max-width: 468px;
-  border: #ddd 1px solid;
+  background-color: white;
+  border: grey 1px solid;
   border-top-color: #eee;
   border-bottom-color: #bbb;
   border-radius: 5px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.15);
   font: bold 14px/18px Helvetica, Arial, sans-serif;
-  color: #000;"> I'm a tweet! </p>
-          </div>
-        </div>
+  color: #000;">   {{tweet}}
       </trump-o-mat>
 {% endif %}
 {% if tweet %}
-<p>Done: {{tweet}}</p>
+<!-- <p>Done: {{tweet}}</p> -->
 {% else %}
     <div class="matrioska">
          <h1>What's their next tweet?</h1>
@@ -92,7 +88,7 @@
   </div>
  <div class="container3">
    <form id=head4>
-     <h3> Who are we? </h3> 
+     <h3> Who are we? </h3>
 <p>We are a group of Binghamton University students. This project started as a piece of the 2017 HackBU Hackathon but will be deployed in the future as a full service site.</p>
 <h3>How does it work? </h3>
 <p>Our model uses python and a Twitter API to collect data from various twitter handles as they are requested. We then use a python code to run a Markov chain on the text. The Markov chain uses the relative probablity of different word combinations to create full sentances or "tweets" based off of past tweeting behaviour. </p>
