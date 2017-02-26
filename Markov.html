@@ -7,11 +7,8 @@
   </head>
   <body>
     <h1 id="Head1"> Markov Twitter</h1>
-    <form>
-      Search Twitter Handle <br>
-      <input type="text" name="twitterhandle"></br><br>
-      <input type="submit" value="Submit" id = "submitBttn">
-      <input type="reset" id = "resetBttn">
-    </form>
+    <p id="demo">To begin, click start</p>
+    <button id="startbttn" type="button" onclick="display()"> start </button>
+    <button id="ready" style="display:none" onclick="markov()"> Ready </button>
   </body>
 </html>
