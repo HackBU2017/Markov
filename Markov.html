@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,10 +8,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
+
   </head>
-  <body>
+ <body>
    <header>
-      <div class="container">
+      <div class="container1">
         <div class="btn-group btn-group-justified" role="group" aria-label="...">
           <div class="btn-group" role="group">
             <button type="button" class="btn btn-default">Make Future Tweet</button>
@@ -22,18 +24,13 @@
             <button type="button" class="btn btn-default">About Us</button>
           </div>
         </div>
-      </div>
-    </header>  <h1 id="Head1"> Markov Twitter</h1>
-  <p id="demo">Enter Twitter Handle:</p>
-<form id = "form">
+    </header>
+    <h1 id="Head1"> Markov Twitter</h1>
+    <p id="demo">To begin, click start</p>
     <div class="wrapper" id="wrapper">
-<input id="TwitterHandle"><br>
-      To begin, click start
- <br>
-
     <button id="startbttn" type="button" onclick="display()"> start </button>
+    <button id="ready" onclick="markov()"> Generate </button>
     </div>
-</form>
     <div class="matrioska">
          <h1>What's their next tweet?</h1>
          <trump-o-mat>
@@ -47,5 +44,11 @@
            </div>
          </trump-o-mat>
    <p>(Disclaimer: this is not a real tweet.)</p>
+ </div>
+   <div class="container2">
+   </div>
+   <div class="container3">
+   </div>
   </body>
+</div>
 </html>
