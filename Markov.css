@@ -9,3 +9,13 @@ background-color: lightblue
 #form {
   text-align: center;
 }
+#submitBttn {
+  border: 2px solid grey;
+   border-radius: 25px;
+   background: white;
+}
+#resetBttn {
+  border: 2px solid grey;
+   border-radius: 25px;
+   background: white;
+}
