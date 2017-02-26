@@ -8,14 +8,10 @@
   <body>
     <h1 id="Head1"> Markov Twitter</h1>
     <p id="demo">To begin, click start</p>
+    <div class="wrapper" id="wrapper">
     <button id="startbttn" type="button" onclick="display()"> start </button>
-    <button id="ready" style="display:none" onclick="markov()"> Ready </button>
-    <form id="form">
-      Enter a Twitter Handle <br>
-      <input type="text" name="twitterhandle"></br><br>
-      <input type="submit" value="Submit" id = "submitBttn">
-      <input type="reset" id = "resetBttn">
-    </form>
+    <button id="ready" onclick="markov()"> Generate </button>
+    </div>
     <div class="matrioska">
          <h1>What's their next tweet?</h1>
          <trump-o-mat>
