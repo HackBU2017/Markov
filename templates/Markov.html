@@ -32,13 +32,19 @@
 </form>
 <form action="/" method="POST" id = "form">
     <div class="wrapper" id="wrapper">
-<input type="text" id="TwitterHandle"><br>
+<input type="text" id="TwitterHandle" name="handle"><br>
       To begin, click start
  <br>
 
     <button id="startbttn" type="submit" onclick="display()"> start </button>
     </div>
 </form>
+{% if itried %}
+<p>It works belieb </p>
+{% endif %}
+{% if tweet %}
+<p>Done: {{tweet}}</p>
+{% else %}
     <div class="matrioska">
          <h1>What's their next tweet?</h1>
          <trump-o-mat>
@@ -53,6 +59,7 @@
          </trump-o-mat>
    <p>(Disclaimer: this is not a real tweet.)</p>
  </div>
+ {% endif %}
  <div class="container2">
     <form id="form2">
     <h3 id = Head3> Fun Twitter Accounts to Try: </h3> <br>
