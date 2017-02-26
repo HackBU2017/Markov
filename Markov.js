@@ -1,5 +1,5 @@
 function display() {
-  var twitterHandle = prompt("Enter a Twitter Handle");
+  var twitterHandle = document.getElementById("TwitterHandle").value;
   if(twitterHandle != null) {
     document.getElementById("demo").innerHTML = "Searching for " + twitterHandle;
     document.getElementById("startbttn").style.display = 'none';
