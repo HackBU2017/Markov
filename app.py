@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=['GET', 'POST'])
 def home():
-    grabber()
+    # return makeMarkov(grabber())
     return render_template('Markov.html')
 
 if __name__ == "__main__":

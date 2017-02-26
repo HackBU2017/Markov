@@ -12,5 +12,4 @@ function display() {
   } else {
     document.getElementById("demo").innerHTML = "oh ok";
   }
-
 }

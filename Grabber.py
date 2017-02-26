@@ -7,7 +7,6 @@ def grabber():
       access_token_key='2498510321-AC9ycNnMzoug1iniU544RvceQkRNQxOS25qdaTr',
       access_token_secret='5odRjLJdgntK0mffliAbIARphkqDyPrJ0UjqeUMI9bmo7')
 
-
     {"id": 16133, "location": "Philadelphia", "name": "bear"}
 
     t = api.GetUserTimeline(screen_name='incrubberduck')
@@ -16,16 +15,14 @@ def grabber():
 
     tweets = [i.AsDict() for i in t]
     for t in tweets:
-        longString += str(t['text']) + "\n"
+        longString += str(t['text'])
     return longString
 
-def makeMarkov():
-    text = grabber()
+def makeMarkov( a ):
+    text = a
     print(text)
-    text_model = markovify.NewlineText(text)
+    text_model = markovify.Text(text)
     for i in range(5):
         print(text_model.make_sentence())
     for i in range(3):
         print(text_model.make_short_sentence(140))
-
-makeMarkov()
