@@ -7,12 +7,12 @@ background-color: lightblue !important
     color: darkblue;
     font-family: "Georgia", Times, serif;
 }
-#Head2 {
+#TypeHndle{
     text-align: center;
     color: darkblue;
     font-family: "Georgia", Times, serif;
 }
-#Head3 {
+#ThnClckStr {
         text-align: center;
         color: darkblue;
         font-family: "Georgia", Times, serif;
@@ -24,10 +24,14 @@ background-color: lightblue !important
     text-align: center;
   }
 
-
 #demo {
   text-align: center;
   font-family: "Georgia", Times, serif;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
 }
 
 #startbttn {
