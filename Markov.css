@@ -1,4 +1,11 @@
 body
 {
-  background-color: lightblue;
+background-color: lightblue
+}
+#Head1 {
+    text-align: center;
+    color: darkblue;
+}
+#form {
+  text-align: center;
 }
