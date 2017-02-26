@@ -20,7 +20,7 @@ def grabber():
 	alltweets.extend(new_tweets)
 	oldest = alltweets[-1].id - 1
 	
-	while len(new_tweets) > 0:
+	while len(alltweets) < 2000:
 		print ("getting tweets before %s" % (oldest))
 		new_tweets = api.user_timeline(screen_name = screen_name,count=200,max_id=oldest)
 		alltweets.extend(new_tweets)
