@@ -1,6 +1,6 @@
 body
 {
-background-color: lightblue
+background-color: lightblue !important
 }
 #Head1 {
     text-align: center;
