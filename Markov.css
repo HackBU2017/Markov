@@ -19,6 +19,7 @@ background-color: lightblue
    border-radius: 25px;
    background: white;
 }
+<<<<<<< HEAD
 #Output {
   text-align: center;
   color: darkblue;
@@ -92,3 +93,5 @@ img {
   display: block;
   margin: 20% auto;
 }
+=======
+>>>>>>> 5b00bc87f95c373202224c9bdca296e6a38bba3e
