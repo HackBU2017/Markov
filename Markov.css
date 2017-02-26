@@ -1,4 +1,21 @@
 body
 {
-  background-color: lightblue;
+background-color: lightblue
+}
+#Head1 {
+    text-align: center;
+    color: darkblue;
+}
+#form {
+  text-align: center;
+}
+#submitBttn {
+  border: 2px solid grey;
+   border-radius: 25px;
+   background: white;
+}
+#resetBttn {
+  border: 2px solid grey;
+   border-radius: 25px;
+   background: white;
 }
