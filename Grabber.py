@@ -7,13 +7,12 @@ def grabber(twitter_handle):
       access_token_key='2498510321-AC9ycNnMzoug1iniU544RvceQkRNQxOS25qdaTr',
       access_token_secret='5odRjLJdgntK0mffliAbIARphkqDyPrJ0UjqeUMI9bmo7')
 
-    {"id": 16133, "location": "Philadelphia", "name": "bear"}
-
-    t = api.GetUserTimeline(screen_name='RealDonaldTrump')
+    t = api.GetUserTimeline(screen_name=twitter_handle, count = 200)
 
     longString = ""
 
     tweets = [i.AsDict() for i in t]
+    # return [str(t['text']).encode("utf-8") for t in tweets]
     for t in tweets:
-        longString += str(t['text'])
+        longString += str(t['text'].encode("utf-8"))
     return longString
