@@ -38,7 +38,7 @@
       To begin, click start
  <br>
 
-    <button id="startbttn" type="submit" onclick="display()"> start </button>
+    <button id="startbttn" type="submit" onclick="display()" onclick="changeImage()" onclick="newImage()"> start </button>
     </div>
 </form>
 {% if itried %}
@@ -59,9 +59,9 @@
          <trump-o-mat>
            <div class="loading">
              <div class="loading-relative">
-               <img class="blurred" src="https://filiph.github.io/markov/images/blurred.jpg">
+               <img class="blurred" id="blurred" src="https://filiph.github.io/markov/images/blurred.jpg">
                <div>
-                 <img class="centered" src="https://filiph.github.io/markov/images/ajax-loader.gif" alt="Loading...">
+                 <img class="centered" id="centered" src="https://filiph.github.io/markov/images/ajax-loader.gif" alt="Loading...">
                </div>
              </div>
            </div>
@@ -83,9 +83,12 @@
     </form>
   </div>
  <div class="container3">
-<h3 id = "Head4"> About Our Team: </h3> <br>
-  <p id="mission"> We are a group of badass mother fuckers. We fuck shit up all night long at Hackathons. We bring you this brilliance from our minds: TwitTwatTweet. we be predicting the future yo. Enter a twitter handle and we’ll get analyzing all up in yo business and seeing yo patterns and such. That’s some criminal minds shit ammiright? Anyway, enjoy this mindfuck that is our webpage, and remember your small existence is meaningless in the infinite fabric of the universe.
-  </p>
+   <form id=head4>
+     <h3> Who are we? </h3> 
+<p>We are a group of Binghamton University students. This project started as a piece of the 2017 HackBU Hackathon but will be deployed in the future as a full service site.</p>
+<h3>How does it work? </h3>
+<p>Our model uses python and a Twitter API to collect data from various twitter handles as they are requested. We then use a python code to run a Markov chain on the text. The Markov chain uses the relative probablity of different word combinations to create full sentances or "tweets" based off of past tweeting behaviour. </p>
+   </form>
  </div>
   </body>
 </html>

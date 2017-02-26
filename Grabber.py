@@ -12,9 +12,6 @@ def grabber(twitter_handle):
     longString = ""
 
     tweets = [i.AsDict() for i in t]
-    #longString += [str(t['text'].encode("utf-8") for t in tweets]
-    #return longString
     for t in tweets:
-    #     longString += str(t['text'])
-         longString += str(t['text'].encode("utf-8") for t in tweets)
-         return longString
+        longString += str(t['text'].encode("utf-8"))
+    return longString
