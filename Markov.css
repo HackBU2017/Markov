@@ -9,3 +9,86 @@ background-color: lightblue
 #form {
   text-align: center;
 }
+#submitBttn {
+  border: 2px solid grey;
+   border-radius: 25px;
+   background: white;
+}
+#resetBttn {
+  border: 2px solid grey;
+   border-radius: 25px;
+   background: white;
+}
+#Output {
+  text-align: center;
+  color: darkblue;
+}
+
+.matrioska {
+  margin: 3em auto;
+  max-width: 520px;
+}
+
+h1 {
+  font-family: "Lucida Grande", Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 2em;
+}
+
+p, li {
+  line-height: 1.4;
+}
+
+.align-right {
+  text-align: right;
+}
+
+li {
+  margin-top: 0.5em;
+}
+
+del {
+  text-decoration: line-through;
+  display: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.loading {
+  min-height: 50vh;
+}
+
+.loading-relative {
+  position: relative;
+}
+
+.loading .blurred {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-filter: blur(5px); /* Chrome, Safari, Opera */
+  filter: blur(5px);
+  width: 100%;
+}
+
+.loading-relative div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.loading-relative div img {
+  display: block;
+  margin: 20% auto;
+}

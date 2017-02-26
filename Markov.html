@@ -7,11 +7,27 @@
   </head>
   <body>
     <h1 id="Head1"> Markov Twitter</h1>
+    <p id="demo">To begin, click start</p>
+    <button id="startbttn" type="button" onclick="display()"> start </button>
+    <button id="ready" style="display:none" onclick="markov()"> Ready </button>
     <form id="form">
-      Search Twitter Handle <br>
+      Enter a Twitter Handle <br>
       <input type="text" name="twitterhandle"></br><br>
       <input type="submit" value="Submit" id = "submitBttn">
       <input type="reset" id = "resetBttn">
     </form>
+    <div class="matrioska">
+         <h1>What's their next tweet?</h1>
+         <trump-o-mat>
+           <div class="loading">
+             <div class="loading-relative">
+               <img class="blurred" src="https://filiph.github.io/markov/images/blurred.jpg">
+               <div>
+                 <img class="centered" src="https://filiph.github.io/markov/images/ajax-loader.gif" alt="Loading...">
+               </div>
+             </div>
+           </div>
+         </trump-o-mat>
+   <p>(Disclaimer: this is not a real tweet.)</p>
   </body>
 </html>
