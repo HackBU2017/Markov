@@ -1,54 +1,68 @@
-body
+#body
 {
 background-color: lightblue
 }
 #Head1 {
     text-align: center;
     color: darkblue;
+    font-family: "Georgia", Times, serif;
 }
-#form {
-  text-align: center;}
+#Head2 {
+    text-align: center;
+    color: darkblue;
+    font-family: "Georgia", Times, serif;
+}
+#Head3 {
+        text-align: center;
+        color: darkblue;
+        font-family: "Georgia", Times, serif;
+}
+#form1 {
+  text-align: center;
+  font-family: "Georgia", Times, serif;}
+#form2 {
+    text-align: center;
+  }
+
 
 #demo {
   text-align: center;
-}
-#startbttn {
-  text-align: center;
-  width: 100px;
-  height: 25px;
-  border: 2px solid grey;
-   border-radius: 25px;
-   background: white;
+  font-family: "Georgia", Times, serif;
 }
 
-#ready {
+#startbttn {
   text-align: center;
-  display: none;
+  font-family: "Georgia", Times, serif;
+  font-weight: bold;
+  font-size: 20px;
   width: 100px;
-  height: 25px;
+  height: 50px;
   border: 2px solid grey;
-   border-radius: 25px;
-   background: white;
+  border-radius: 25px;
+  background: white;}
 }
 
 #Output {
   text-align: center;
+  font-family: "Georgia", Times, serif;
   color: darkblue;
 }
 
 .matrioska {
   margin: 3em auto;
   max-width: 520px;
+  font-family: "Georgia", Times, serif;
 }
 
 h1 {
-  font-family: "Lucida Grande", Arial, sans-serif;
+  font-family: "Georgia", Times, serif;
   font-weight: bold;
   letter-spacing: -1px;
 }
 
 h1 {
   text-align: center;
+  font-family: "Georgia", Times, serif;
 }
 
 h2 {
@@ -61,6 +75,7 @@ p, li {
 
 .align-right {
   text-align: right;
+  font-family: "Georgia", Times, serif;
 }
 
 li {
@@ -69,6 +84,7 @@ li {
 
 del {
   text-decoration: line-through;
+  font-family: "Georgia", Times, serif;
   display: none;
 }
 
@@ -79,6 +95,7 @@ img {
 .wrapper{
   text-align: center;
   float: inherit;
+  font-family: "Georgia", Times, serif;
 }
 
 .loading {
@@ -109,3 +126,78 @@ img {
   display: block;
   margin: 20% auto;
 }
+
+#Acct1{
+text-align: center;
+  font-weight: bold;
+width: 100px;
+height: 50px;
+border: 2px solid grey;
+ border-radius: 25px;
+ background: white;
+ font-family: "Georgia", Times, serif;
+ }
+ #Acct2{
+   text-align: center;
+     font-weight: bold;
+ font-family: "Georgia", Times, serif;
+ width: 100px;
+ height: 50px;
+ border: 2px solid grey;
+  border-radius: 25px;
+  background: white;}
+  #Acct3{
+    text-align: center;
+      font-weight: bold;
+  font-family: "Georgia", Times, serif;
+  width: 100px;
+  height: 50px;
+  border: 2px solid grey;
+   border-radius: 25px;
+   background: white;}
+   #Acct4{
+     font-family: "Georgia", Times, serif;
+       font-weight: bold;
+     text-align: center;
+   width: 100px;
+   height: 50px;
+   border: 2px solid grey;
+    border-radius: 25px;
+    background: white;}
+    #Acct5{
+      text-align: center;
+        font-weight: bold;
+    font-family: "Georgia", Times, serif;
+    width: 100px;
+    height: 50px;
+    border: 2px solid grey;
+     border-radius: 25px;
+     background: white;}
+     #Acct6{
+       text-align: center;
+         font-weight: bold;
+     font-family: "Georgia", Times, serif;
+     width: 100px;
+     height: 50px;
+     border: 2px solid grey;
+      border-radius: 25px;
+      background: white;}
+      #Acct7{
+        text-align: center;
+          font-weight: bold;
+      font-family: "Georgia", Times, serif;
+      width: 100px;
+      height: 50px;
+      border: 2px solid grey;
+       border-radius: 25px;
+       background: white;}
+
+       #Acct8{
+         text-align: center;
+      font-weight: bold;
+       font-family: "Georgia", Times, serif;
+       width: 100px;
+       height: 50px;
+       border: 2px solid grey;
+        border-radius: 25px;
+        background: white;}

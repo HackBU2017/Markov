@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,29 +9,28 @@
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
   </head>
-  <body>
-    <header>
-      <div class="btn-group btn-group-justified" role="group" aria-label="...">
-        <div class="btn-group" role="group">
-          <button type="button" class="btn btn-default">Left</button>
+ <body id = "body">
+   <header>
+      <div class="container1">
+        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+          <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default">Make Future Tweet</button>
+          </div>
+          <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default">Recommended Twitter Handles</button>
+          </div>
+          <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default">About Us</button>
+          </div>
         </div>
-        <div class="btn-group" role="group">
-          <button type="button" class="btn btn-default">Middle</button>
-        </div>
-        <div class="btn-group" role="group">
-          <button type="button" class="btn btn-default">Right</button>
-        </div>
-      </div>
-    </header>   
-  <h1 id="Head1"> Markov Twitter</h1>
-  <p id="demo">Enter Twitter Handle:</p>
-<form>
+    </header>
+<form id="form1">
+    <h1 id="Head1"> Markov Twitter</h1>
+    <h4 id="Head2"> To begin, type in a Twitter handle </h4>
+    <input type="text" id ="Input"><br>
+    <h3 id="demo">Then, click start</h3>
     <div class="wrapper" id="wrapper">
-<input id="TwitterHandle"><br>
-      To begin, click start
- <br>
-
-    <button id="startbttn" type="button" onclick="display()"> start </button>
+    <button id="startbttn" type="button" onclick="display()"> Start </button>
     </div>
 </form>
     <div class="matrioska">
@@ -45,6 +45,23 @@
              </div>
            </div>
          </trump-o-mat>
-   <p>(Disclaimer: this is not a real tweet.)</p>
+   <p>(Disclaimer: these are not real tweets)</p>
+ </div>
+   <div class="container2">
+     <form id="form2">
+   <h3 id = Head3> Fun Twitter Accounts to Try: </h3> <br>
+   <button id="Acct1" type="button" onclick="display()"> Donald Trump </button>
+   <button id="Acct2" type="button" onclick="display()"> Barack Obama </button>
+   <button id="Acct3" type="button" onclick="display()"> Justin Bieber </button>
+   <button id="Acct4" type="button" onclick="display()"> Kim Kardashian </button>
+   <button id="Acct5" type="button" onclick="display()"> Conan O'Brien </button>
+   <button id="Acct6" type="button" onclick="display()"> Stephen Colbert </button>
+   <button id="Acct7" type="button" onclick="display()"> ESPN </button>
+   <button id="Acct8" type="button" onclick="display()"> BBC News </button>
+ </form>
+   </div>
+   <div class="container3">
+   </div>
   </body>
+</div>
 </html>
