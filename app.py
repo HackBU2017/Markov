@@ -8,6 +8,7 @@ app = Flask(__name__)
 
 def makeMarkov(twitter_handle):
     text = grabber(twitter_handle)
+    print(text)
     text_model = markovify.Text(text)
 
     output = text_model.make_sentence()
@@ -20,6 +21,7 @@ def home():
     if request.method == 'POST':
         tweet = makeMarkov(request.form['handle'])
         print("Tweet", tweet)
+        makeMarkov(tweet)
         return render_template('Markov.html', tweet=tweet, itried=True)
     else:
         return render_template('Markov.html')
