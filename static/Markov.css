@@ -40,8 +40,8 @@ background-color: lightblue
 }
 
 #logo {
-    width: 100px;
-    height: 100px;
+    width: 600px;
+    height: 400px;
 }
 
 #startbttn {
@@ -67,6 +67,7 @@ background-color: lightblue
   margin-right: 150px;
    margin-left: 80px;
 }
+
 .matrioska {
   margin: 3em auto;
   max-width: 520px;

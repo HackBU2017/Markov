@@ -29,7 +29,7 @@
    </header>
 
 <form id= form1>
-  <img id="logo" src="https://raw.githubusercontent.com/HackBU2017/Markov/master/Presentation1.png"  width="600" height=auto>
+  <img id="logo" src="https://raw.githubusercontent.com/HackBU2017/Markov/master/Presentation1.png">
   <p id="demo">Enter Twitter Handle:</p>
 </form>
 <form action="/" method="POST" id = "form">
@@ -54,7 +54,7 @@
   border-radius: 5px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.15);
   font: bold 14px/18px Helvetica, Arial, sans-serif;
-  color: #000;"> I'm a tweet! </p>
+  color: black;"> {{tweet}} </p>
           </div>
         </div>
       </trump-o-mat>
@@ -92,7 +92,7 @@
   </div>
  <div class="container3">
    <form id=head4>
-     <h3> Who are we? </h3> 
+     <h3> Who are we? </h3>
 <p>We are a group of Binghamton University students. This project started as a piece of the 2017 HackBU Hackathon but will be deployed in the future as a full service site.</p>
 <h3>How does it work? </h3>
 <p>Our model uses python and a Twitter API to collect data from various twitter handles as they are requested. We then use a python code to run a Markov chain on the text. The Markov chain uses the relative probablity of different word combinations to create full sentances or "tweets" based off of past tweeting behaviour. </p>
